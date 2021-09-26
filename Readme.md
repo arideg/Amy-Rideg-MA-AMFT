@@ -4,8 +4,8 @@
 
 ##  Registered Associate Marriage and Family Therapist in Santa Barbara, CA | AMFT #97827
 
-###  Supervised by Gary G. Linker, PhD, LMFT
-
 <img align="right" src="images/Amy.JPG" width="200" alt="Amy Photo"/>
+
+###  Supervised by Gary G. Linker, PhD, LMFT
 
 Hello my name is Amy
