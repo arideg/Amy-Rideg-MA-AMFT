@@ -1,6 +1,6 @@
-<img align="left" src="images/HibiscusLogoFlush.png" width="200" alt="Hibiscus Image"/>
-
 # Amy Rideg, MA, AMFT
+
+<img align="left" src="images/HibiscusLogoFlush.png" width="200" alt="Hibiscus Image"/>
 
 ###  AMFT #97827
 
