@@ -2,8 +2,8 @@
 
 # Amy Rideg, MA, AMFT
 
-### AMFT #97827
+##  AMFT #97827
 
-### Supervised by Gary G. Linker, PhD, LMFT
+###  Supervised by Gary G. Linker, PhD, LMFT
 
 Hello my name is Amy.
