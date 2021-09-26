@@ -2,7 +2,7 @@
 
 <img align="left" src="images/HibiscusLogoFlush.png" width="200" alt="Hibiscus Image"/>
 
-##  Mental Health Therapist in Santa Barbara, CA
+##  Registered Associate Marriage and Family Therapist in Santa Barbara, CA
 
 ###  AMFT #97827
 
