@@ -7,3 +7,5 @@
 ###  Supervised by Gary G. Linker, PhD, LMFT
 
 Hello my name is Amy.
+
+<img align="right" src="images/Amy.JPG" width="200" alt="Hibiscus Image"/>
