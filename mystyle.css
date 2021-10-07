@@ -1,0 +1,61 @@
+/* Add some padding on document's body to prevent the content
+    to go underneath the header and footer */
+    body{        
+        padding-top: 160px;
+        padding-bottom: 40px;
+    }
+    .container{
+        width: 85%;
+        margin: 0 auto; /* Center the DIV horizontally */
+    }
+    .fixed-header, .fixed-footer{
+        width: 100%;
+        position: fixed;        
+        background: #00bcd4;
+        color: #fff;
+    }
+
+    .fixed-header {
+        top: 0;
+    }
+    .fixed-footer{
+        bottom: 0;
+        padding: 10px 0;
+    }
+
+    .header-table {
+        width: 100%;
+    }
+    
+    /* Some more styles to beutify this example */
+    .nav a{
+        color: #fff;
+        text-decoration: none;
+        padding: 7px 25px;
+        display: inline-block;
+    }
+
+    .container img {
+        float: right;
+        padding-left: 20px;
+        /* padding-top: 75px; */
+    }
+
+    .container p{
+        line-height: 25px; /* Create scrollbar to test positioning */
+        text-align: justify; 
+        text-justify: inter-word;
+    }
+
+    figure {
+        margin: 20px; /* adjust as needed */
+    }
+    figure img {
+        vertical-align: top;
+    }
+    figure figcaption {
+        text-align: center;
+    }
+    
+
+    
