@@ -2,7 +2,7 @@
 <html lang="en">
 <title>Amy Rideg, MA, AMFT</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" value="Amy Rideg Associate Marriage and Family Therapist in Santa Barbara, CA">
 <meta name="keywords" value="therapist, therapy, Santa Barbara, California, counseling, counselor">
 <link rel="stylesheet" href="mystyle.css">
@@ -23,34 +23,64 @@
 </nav>
 
 <!-- Header -->
-<div class="fixed-header">
-<header class="w3-container w3-theme" id="myHeader">
-  <table class="header-table">
-    <tr>
-        <td width="4%"><i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i></td>
-        <td width="5%"><img src="images/HibiscusLogoFlush.png" height="80" style="margin:10px" alt="Hibiscus Image"/></td>
-        <td><h1 class="w3-text-white" style="font-weight:bolder">Amy Rideg, MA, AMFT</h1></td>
-        <td><h4 text-align="right" class="call">Call to schedule: <a href="tel:18052880981">(805) 288-0981</a></h4></td>
-    </tr>
-    <tr>
-        <td colspan="4">
-        <div class="w3-bar w3-theme">
-            <a href="index.html" class="w3-bar-item w3-button w3-padding-5">Home</a>
-            <a href="specialties.html" class="w3-bar-item w3-button w3-padding-5">Specialties</a>
-            <a href="experience.html" class="w3-bar-item w3-button w3-padding-5">Experience</a>
-            <a href="contact.html" class="w3-bar-item w3-button w3-padding-5">Contact</a>
+<div class="fixed-header header-mobile">
+    <header class="w3-container w3-theme" id="myHeader">
+        <div class="row">
+          <table class="header-table">
+            <tr>
+              <td width="4%"><i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i></td>
+              <td width="5%"><img src="images/HibiscusLogoFlush.png" height="50" style="margin:5px" alt="Hibiscus Image"/></td>
+              <td><p class="w3-text-white resp-h1">Amy Rideg, MA, AMFT</p></td>
+            
+            </tr>
+            <tr>  
+              <td colspan="3">
+                <center>
+                  <p text-align="right" class="call resp-h4">Call to schedule: <a href="tel:18052880981">(805) 288-0981</a></h4>
+                </center>
+              </td>
+            </tr>
+          </table>
+        
+          <div class="row">
+            <div class="bar w3-theme">
+                <a href="index.html" class="bar-item w3-button w3-padding-5">Home</a>
+                <a href="specialties.html" class="bar-item w3-button w3-padding-5">Specialties</a>
+                <a href="experience.html" class="bar-item w3-button w3-padding-5">Experience</a>
+                <a href="contact.html" class="bar-item w3-button w3-padding-5">Contact</a>
+            </div>
           </div>
-        </td>
-    </tr>
-    </table>
-</header>
-</div>
+    </header>
+    </div>
+  
+    <div class="fixed-header header-desktop">
+      <header class="w3-container w3-theme" id="myHeader">
+        <table class="header-table">
+          <tr>
+              <td width="4%"><i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i></td>
+              <td width="5%"><img src="images/HibiscusLogoFlush.png" height="80" style="margin:10px" alt="Hibiscus Image"/></td>
+              <td><h1 class="w3-text-white" style="font-weight:bolder">Amy Rideg, MA, AMFT</h1></td>
+              <td><h4 text-align="right" class="call">Call to schedule: <a href="tel:18052880981">(805) 288-0981</a></h4></td>
+          </tr>
+          <tr>
+              <td colspan="4">
+              <div class="w3-bar w3-theme">
+                  <a href="index.html" class="w3-bar-item w3-button w3-padding-5">Home</a>
+                  <a href="specialties.html" class="w3-bar-item w3-button w3-padding-5">Specialties</a>
+                  <a href="experience.html" class="w3-bar-item w3-button w3-padding-5">Experience</a>
+                  <a href="contact.html" class="w3-bar-item w3-button w3-padding-5">Contact</a>
+                </div>
+              </td>
+          </tr>
+          </table>
+      </header>
+    </div>
+  <!-- end Header -->
 
 <div class="container">
 
-    <table class="w3-table">
-        <tr>
-            <td valign="top">
+    <div class="row">
+        <div class="column">
                 <h2>Specialties</h2>
 
                 <h3>Codependency</h3>
@@ -73,38 +103,29 @@
 
                 <h3>Sexual Abuse</h3>  
                     <p style="margin-left:20px;">I help clients address trauma related to sexual abuse.</p>
-            </td>
-            <td>
-                <figure>
-                    <img src="images/Peru-SunContrast.JPG" width="400" alt="Peru Poetry Photo"/>
-                    <figcaption>Poetry in Lima, Peru</figcaption>
-                </figure>
-                
-                <figure>
-                    <img src="images/Hawaii-BeachHeart-Contrast.JPG" width="400" alt="Hawaiian Beach Heart Photo"/>
-                    <figcaption>Beach heart in Hawaii</figcaption>
-                </figure>
-            </td>
-        </tr>
+            </div>
+            <div class="w3-third">
+                <div class="card">
+                    <img src="images/Peru-SunContrast.JPG" alt="Peru Poetry Photo" style="width:100%">
+                    <div class="w3-container">
+                    <p>Poetry in Lima, Peru</p>
+                    </div>
+                  </div>
 
-<!--         <tr>
-            <td colspan="2">
-                
-                
-            </td>
-        </tr> -->
-
-    </table>
-
+                <div class="card">
+                    <img src="images/Hawaii-BeachHeart-Contrast.JPG" alt="Hawaiian Beach Heart Photo" style="width:100%">
+                    <div class="w3-container">
+                    <p>Beach Heart in Hawaii</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
 </div>  
-
 
     <div class="fixed-footer">
         <div class="container">Amy Rideg, MA, AMFT #97827 | Supervised by Gary Linker, PhD, LMFT</div>        
     </div>
 </body>
-
-
 
 
 <!-- Script for Sidebar, Tabs, Accordions, Progress bars and slideshows -->
