@@ -21,7 +21,7 @@
         width: 100%;
     }
     
-    /* Some more styles to beutify this example */
+    /* Some more styles to beautify this example */
     .nav a{
         color: #fff;
         text-decoration: none;
@@ -109,6 +109,18 @@
             height: 350px;
             width: 425px;
         }
+
+        .credentials {
+            float: left;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+        }
+        .verification {
+            float: right;
+        }
       }
 
     /* Mobile */
@@ -142,5 +154,13 @@
             height: 225px;
             width: 300px;
         }
+
+        .credentials {
+            float: left;
+        }
+        .verification {
+            float: left;
+        }
+
     }
     
